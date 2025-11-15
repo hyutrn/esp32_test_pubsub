@@ -3,7 +3,7 @@
 
 // === WIFI CONFIG ===
 #define WIFI_SSID "TrongHuy"                // SSID
-#define WIFI_PASS "0984417423@"             // Password
+#define WIFI_PASS "password"             // Password
 
 // === MQTT CONFIG ===
 #define MQTT_BROKER "broker.mqtt-dashboard.com"   // Địa chỉ MQTT broker
@@ -101,3 +101,4 @@ void loop() {
     lastTime = millis();
   }
 }
+
